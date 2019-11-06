@@ -19,7 +19,6 @@ def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each do strings | quseo |
   return quseo if strings.include? (quseo)
-  
-  
-  
+end
+  return nil
 end

@@ -14,7 +14,7 @@ def long_planeteer_calls(array)
   
 end
 
-def find_the_cheese(strings) 
+def find_the_cheese(cont) 
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each do strings | quseo |
   return quseo if strings.include? (quseo)
